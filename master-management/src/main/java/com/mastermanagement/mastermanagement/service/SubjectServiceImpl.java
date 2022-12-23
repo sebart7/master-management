@@ -8,10 +8,12 @@ import com.mastermanagement.mastermanagement.repository.ISubjectRepository;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class SubjectServiceImpl implements ISubjectService {
 
     @Autowired
